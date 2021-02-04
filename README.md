@@ -26,7 +26,7 @@ docker-compose up --scale vncorenlp=4
 ```
 
 4. Connect to the service:
-```bash
+```python
 from vncorenlp import VnCoreNLP
 
 wordsegmenter = VnCoreNLP(vncorenlp_host, vncorenlp_port)
