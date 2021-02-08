@@ -29,6 +29,6 @@ docker-compose up --scale vncorenlp=4
 ```python
 from vncorenlp import VnCoreNLP
 
-wordsegmenter = VnCoreNLP(vncorenlp_host, vncorenlp_port)
+wordsegmenter = VnCoreNLP('http://localhost', 8000)
 wordsegmenter.tokenize('hôm nay tôi đi học')
 ```
