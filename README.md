@@ -4,12 +4,12 @@ Easily increase the capacity of the [VnCoreNLP](https://github.com/vncorenlp/VnC
 
 Only support for word segmenter.
 
-# Requirements
+## Requirements
 - Docker.
 - Docker Compose.
 - Python with `vncorenlp` preinstalled.
 
-# Get Started
+## Get Started
 1. Clone this repository.
 ```bash
 git clone https://github.com/duydvu/Scalable-VnCoreNLP.git
